@@ -1,0 +1,60 @@
+h3:first-child:not(.item-title-container) {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+div:not(.text-box) p {
+  color: red;
+}
+
+.text-box > :nth-child(7) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.item-title-container:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.mean-title:focus {
+  background-color: orange;
+}
+
+.item-lesson-container:checked {
+  background-color: brown;
+}
+
+ol li:not(.item-monday-lesson-container) {
+  background-color: mediumspringgreen;
+}
+
+.item-container:not([class="item-monday-lesson-container"]) {
+  background-color: hotpink;
+}
+
+:nth-child(even) {
+  color: red;
+}
+
+:nth-child(odd) {
+  color: burlywood;
+}
+
+.item-tuesday-container:first-child {
+    font-size: 40px;
+}
+
+.item-wednesday-container:last-child {
+    font-style: italic;
+}
+
+.item-wednesday-container:nth-child(3) {
+ font-size: 19px;
+}
