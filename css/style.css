@@ -29,23 +29,23 @@
   --visited-coloor: limegreen;
 }
 
-.monday-link:hover {
+.monday .monday-link:hover {
   color: var(--hover-color);
 }
 
-.tuesday-link:focus {
+.tuesday .tuesday-link:focus {
   background-color: var(--focus-color);
 }
 
-.wednesday-link:not(.monday) {
+.wednesday .wednesday-link:not(.monday) {
   background-color: var(--bg-first-section);
 }
 
-.thursday:active {
+.thursday .thursday-link:active {
 color: var(--active-color);
 }
 
-.friday:visited {
+.friday .friday-link:visited {
   color: var(--visited-coloor);
 }
 
